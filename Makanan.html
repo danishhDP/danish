@@ -1,0 +1,265 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Makanan Yang Jarang Diketahui</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2efec;
+  color: #8f665d;
+  overflow-y: scroll;
+}
+
+.container {
+  width: 100%;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+}
+
+.image-side {
+  overflow: hidden;
+  background: #ddd;
+}
+
+.image-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.text-side {
+  background: #f3efeb;
+  padding: 24px 48px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-top {
+  font-size: 3rem;
+  line-height: 0.95;
+  font-weight: 900;
+  color: #cf6d5e;
+  text-transform: uppercase;
+  width: 70%;
+  margin-bottom: 80px;
+}
+
+.nav {
+  position: absolute;
+  top: 22px;
+  right: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-link {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  background: #4a2218;
+  color: white;
+  border-radius: 999px;
+  padding: 10px 30px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.nav button,
+.bottom-nav button {
+  background: #4a2218;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 30px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.content {
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 340px;
+  margin-left: 90px;
+}
+
+.content h2 {
+  color: #cf6d5e;
+  font-size: 2.8rem;
+  line-height: 1;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.content p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #b17f74;
+}
+
+.bottom-nav {
+  position: absolute;
+  bottom: 22px;
+  left: 24px;
+  right: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+.reverse {
+  direction: rtl;
+}
+
+.reverse > * {
+  direction: ltr;
+}
+
+@media (max-width: 900px) {
+  .section {
+    grid-template-columns: 1fr;
+  }
+
+  .image-side {
+    height: 55vh;
+  }
+
+  .text-side {
+    min-height: 45vh;
+    padding: 32px 24px 90px;
+  }
+
+  .title-top {
+    width: 100%;
+    font-size: 2.2rem;
+    margin-top: 50px;
+  }
+
+  .content {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .content h2 {
+    font-size: 2rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+
+  .nav {
+    flex-direction: row;
+    top: 12px;
+    right: 12px;
+    left: 12px;
+    justify-content: center;
+  }
+
+  .bottom-nav {
+    flex-wrap: wrap;
+  }
+}
+
+  </style>
+</head>
+<body>  <div class="container"><!-- SECTION 1 -->
+<section class="section" id="tentang">
+  <div class="image-side">
+    <img src="https://i0.wp.com/resepkoki.id/wp-content/uploads/2018/08/Resep-Perkedel-Bondon.jpg?fit=1150%2C1390&ssl=1" alt="Perkedel Bondon" />
+  </div>
+
+  <div class="text-side">
+    <div class="nav">
+      <a href="Homepage.html" class="nav-link">Beranda</a>
+      <a href="Tenatang.html" class="nav-link">Tentang</a>
+      <a href="Makanan.html" class="nav-link">Makanan</a>
+    </div>
+
+    <h1 class="title-top">Makanan² Yang Jarang Diketahui</h1>
+
+    <div class="content">
+      <h2>Perkedel Bondon</h2>
+      <p>
+        Perkedel Bondon merupakan salah satu jajanan legendaris dan terkenal
+        enak di Bandung. Perkedel ini masih dimasak dengan cara tradisional
+        yakni digoreng dengan api tungku.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 2 -->
+<section class="section reverse" id="makanan">
+  <div class="image-side">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Fbq_44qR4n8AR9oPP6H1DcP_OcWHGMAuU3P2h3bRmw&s=10" alt="Nasi Kalong" />
+  </div>
+
+  <div class="text-side">
+    <div class="bottom-nav">
+      <a href="Homepage.html" class="nav-link">Beranda</a>
+      <a href="Tenatang.html" class="nav-link">Tentang</a>
+      <a href="Makanan.html" class="nav-link">Makanan</a>
+    </div>
+
+    <div class="content">
+      <h2>Nasi Kalong</h2>
+      <p>
+        Nasi kalong merupakan salah satu kuliner malam hari di Kota Bandung.
+        Warna nasinya merah kehitaman yang berasal dari kluwak.
+      </p>
+
+      <p>
+        Nasi kalong ini biasa disajikan dengan lauk berupa ayam, tempe,
+        tahu, dan rolade sapi. Cita rasa nasi kalong ini gurih.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3 -->
+<section class="section" id="makasih">
+  <div class="image-side">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvifORKYdxJ5KtuN9BU_d0CehjXg8_HRzcLNSG4XiE-w&s=10" alt="Lotek" />
+  </div>
+
+  <div class="text-side">
+    <div class="bottom-nav">
+      <a href="Homepage.html" class="nav-link">Beranda</a>
+      <a href="Tenatang.html" class="nav-link">Tentang</a>
+      <a href="Makanan.html" class="nav-link">Makanan</a>
+    </div>
+
+    <div class="content">
+      <h2>Lotek</h2>
+      <p>
+        Lotek merupakan salah satu makanan yang sudah ada sejak dulu kala.
+        Lotek merupakan sayuran yang dibumbui kacang dan disajikan dengan
+        lontong atau nasi hangat, disertai dengan kerupuk dan bawang goreng.
+      </p>
+    </div>
+  </div>
+</section>
+
+  </div>
+</body>
+</html>

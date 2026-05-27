@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Makanan Kuliner Bandung</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f7f3ef;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    position: absolute;
+    top: 30px;
+    right: 80px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #5b2b2b;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #7a3c3c;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 80px 20px 80px;
+}
+
+.title-section h2 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #c45c3c;
+    margin-bottom: 10px;
+}
+
+.title-section h1 {
+    font-size: 90px;
+    color: #c45c3c;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.author {
+    font-size: 18px;
+    color: #a94f34;
+}
+
+/* IMAGE */
+.image-section {
+    margin: 30px 80px 60px 80px;
+}
+
+.image-section img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px 20px;
+    }
+
+    nav {
+        position: static;
+        margin: 20px;
+    }
+
+    .title-section h1 {
+        font-size: 50px;
+    }
+
+    .image-section {
+        margin: 20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="Homepage.html">Beranda</a>
+    <a href="Tenatang.html">Tentang</a>
+    <a href="Makanan.html">Makanan</a>
+</nav>
+
+<header>
+    <div class="title-section">
+        <h2>MAKANAN KULINER</h2>
+        <h1>BANDUNG</h1>
+    </div>
+
+    <div class="author">
+        A. Danish Prayata
+    </div>
+</header>
+
+<section class="image-section">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEdUbO3Kr99knFM52XeEP09mJqODq4CzyNApcvb5SVt96ghBdUjT0tTl4&s=10" alt="Kuliner Bandung">
+</section>
+
+</body>
+</html>

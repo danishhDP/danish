@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bandung Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f3ebe6;
+      color: #6b3e2e;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: flex-end;
+      gap: 20px;
+      padding: 20px 40px;
+    }
+
+    .nav-btn {
+      background-color: #5a2d1d;
+      color: white;
+      padding: 10px 25px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    /* Main layout */
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 60px;
+    }
+
+    .left {
+      max-width: 50%;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      font-weight: bold;
+    }
+
+    .summary {
+      margin-top: 20px;
+    }
+
+    .summary p {
+      margin: 8px 0;
+    }
+
+    /* Image */
+    .right img {
+      width: 500px;
+      border-radius: 4px;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .left, .right {
+        max-width: 100%;
+      }
+
+      .right img {
+        width: 100%;
+        margin-top: 20px;
+      }
+
+      .navbar {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="Homepage.html" class="nav-btn">Beranda</a>
+    <a href="Tenatang.html" class="nav-btn">Tentang</a>
+    <a href="Makanan.html" class="nav-btn">Makanan</a>
+  </div>
+
+  <!-- Content -->
+  <div class="container">
+    <div class="left">
+      <h1>BANDUNG IS HERE</h1>
+      <p>
+        <span class="highlight">Bandung</span> adalah sebuah kota di Provinsi Jawa Barat, Indonesia, yang dikenal sebagai pusat pendidikan, kreativitas, dan wisata.
+      </p>
+
+      <div class="summary">
+        <p><strong>📍 Lokasi:</strong> Jawa Barat, Indonesia</p>
+        <p><strong>🏙️ Status:</strong> Ibu kota Provinsi Jawa Barat</p>
+        <p><strong>🎓 Julukan:</strong> Kota Pelajar dan Paris van Java</p>
+        <p><strong>🌤️ Ciri khas:</strong> Udara relatif sejuk, dikelilingi pegunungan</p>
+        <p><strong>🎨 Terkenal:</strong> Fashion, kuliner, industri kreatif, dan teknologi</p>
+      </div>
+    </div>
+
+    <div class="right">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQujfVtKOGmDjTVN9qG1cleSaBrgDNbmlxueQ&s" alt="Bandung">
+    </div>
+  </div>
+
+</body>
+</html>
